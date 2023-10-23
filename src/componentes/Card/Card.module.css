@@ -1,0 +1,11 @@
+.card{
+    display: flex;
+}
+.card img{
+    border-radius: 8px;
+    padding-bottom: 6px;
+    margin-bottom: 3px;
+    border: 2px solid #ffffff80;
+    width: 300px;
+    z-index:1000 ;
+}

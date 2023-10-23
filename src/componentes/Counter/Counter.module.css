@@ -1,0 +1,8 @@
+.counter{
+    position: absolute;
+    top:0;
+    border:none;
+    background-color: #f44336;
+    border-radius: 40%;
+    padding: 1px 4px;
+}

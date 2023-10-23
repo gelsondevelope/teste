@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f0f0;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/*Estilizando Cards*/
+.cards{
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#pais{
+  background-color: #f44336;
+display: inline-block;
+  margin-top: 20px;
+text-align: center;
+  border-radius: 8px;
+  padding: 14px;
+}
+#desc{
+  padding-inline: 120px;
+  font-size: 18x;
+}
+#start{
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #f0f0f0;
+  display: inline-block;
+  margin: auto;
+  border-radius: 8px;
+  padding: 14px;
+  box-shadow:3px 3px 3px   rgb(202, 86, 86);
+}
+#bot{
+  width: 100%;
+  bottom: 0;
+  padding: 0;
+}
+#autor{
+  width: 100%;
+  height: 250px;
+}
+#top{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+
+
+}
+.cont{
+  border:2px solid whitesmoke;
+  display: inline-block;
+  margin: auto;
+  width: 30%;
+  border-radius:10px;
+  background-color: rgba(31, 2, 2, 0.425);
+
+}
+.cont p{
+  font-weight: 1000;
+  
+}
